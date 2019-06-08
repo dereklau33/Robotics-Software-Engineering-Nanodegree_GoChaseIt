@@ -16,6 +16,7 @@ Create drive_bot:
 5. The world.launch file should launch your world with the white-colored ball and your robot.  
 
 Create ball_chaser:  
+
 6. Create a ball_chaser ROS package to hold your C++ nodes.  
 
 7. Write a drive_botC++ node that will provide a ball_chaser/command_robot service to drive the robot by controlling its linear x and angular z velocities. The service should publish to the wheel joints and return back the requested velocities.  
