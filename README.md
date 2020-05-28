@@ -71,7 +71,6 @@ Create a workspace:
 ```bash
 $ mkdir -p /home/workspace/catkin_ws/src
 $ cd /home/workspace/catkin_ws/src
-$ catkin_init_workspace
 ```   
 
 Clone this git repository in src:    
@@ -81,6 +80,24 @@ git clone https://github.com/dereklau33/Robotics-Software-Engineering-Nanodegree
 
 Build package:  
 ```bash
+$ cd /home/workspace/catkin_ws
 source devel/setup.bash
 catkin_make
 ```
+
+Launch Simulation of the Robot in Gazebo:
+```bash
+$ roslaunch my_robot world.launch
+```
+
+Run Drive Bot and Process Image Packages:   
+```bash
+$ roslaunch ball_chaser ball_chaser.launch
+```
+
+Visualize Robot Camera Images  
+```bash
+$ rosrun rqt_image_view rqt_image_view
+```
+
+Place the White Ball in Front of the Robot by Clicking and Dragging so the Robot Will Chase After the Ball
