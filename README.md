@@ -28,6 +28,7 @@ Create ball_chaser:
 10. The robot you design in this project will be used as a base model for all your upcoming projects in this Robotics Software Engineer Nanodegree Program.  
 
 # Project Requirements
+ROS Kinetic
 Gazebo >= 7.0  
 
 # Project Setup
